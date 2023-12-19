@@ -189,3 +189,51 @@ function checkAnswer(){
     }
     
     }
+
+    // function for result
+function showResult () {
+    console.log('showResult started!');
+    console.log(correctAnswer);
+
+    const resultsTemplate = `
+    <h2 class="title">%title%</h2>
+    <h3 class="summary">%message%</h3>
+    <p class="result">%result%</p>
+    `;
+
+    let title, message;
+
+    // outcome options at the end of the quiz
+    if (correctAnswer === questions.length) {
+        title = 'Congratulations!😀';
+        message = 'You answered all the questions correctly!🏅';
+
+    } else if ((correctAnswer * 100) / questions.length >= 50) {
+        title = 'Not a bad result!🤔';
+        message = 'You gave more than half of the correct answers!🥈';
+
+    } else {
+        title = 'You should try harder😕';
+        message = 'You have less than half the correct answers so far🥉';
+    }
+
+// result
+let result = `${correctAnswer} of ${questions.length}`;
+
+// final answer
+const finalMessage = resultsTemplate
+            .replace('%title%', title)
+            .replace('%message%', message)
+            .replace('%result%', result);
+
+headerBlock.innerHTML = finalMessage;
+
+// play again
+submitButton.blur();
+submitButton.innerText = 'Play again';
+submitButton.onclick = function(){
+    history.go();
+	
+};
+
+}
