@@ -98,3 +98,47 @@ let wrongAnswer = 0; // number of wrong answers
 let score = 0; // games scores
 let questionIndex = 0; // current question
 
+// start commands
+clearPage();
+showQuestion();
+submitButton.onclick = checkAnswer;
+
+// clear page HTML
+function clearPage() {
+    headerBlock.innerHTML = '';
+    listBlock.innerHTML = '';
+
+}
+
+// start current question
+function showQuestion(){
+console.log('showQuestion');
+
+// question
+const headerTemplate = `<h2 class="title">%title%</h2>`;
+const title = headerTemplate.replace('%title%', questions[questionIndex]['question']);
+
+
+headerBlock.innerHTML = title;
+
+// answer options
+let answerNumber = 1;
+for (let answerText of questions[questionIndex]['answers']) {  
+const questionTemplate = 
+     `<li>
+         <label>
+    <input value="%number%" type="radio" class="answer" name="answer" />
+    <span>%answer%</span>
+</label>
+</li>`;
+
+const answerHTML = questionTemplate
+.replace('%answer%', answerText)
+.replace('%number%', answerNumber); 
+
+listBlock.innerHTML += answerHTML;
+answerNumber++;
+
+}
+
+}
