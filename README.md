@@ -2,7 +2,7 @@
 
 The quiz is dedicated to football fans of the 90s. In the last era of the century there were many glorious events, many football stars, there was a different football atmosphere than today, and therefore I would like football fans to refresh their memory and go back a little to the past and feel the emotions that filled them when they watched football in the 90s. This quiz will help them plunge into that atmosphere.
 
-You can check out the website [here](https://askeran17.github.io/...)!
+You can check out the website [here](https://askeran17.github.io/90s-football-quiz/)!
 
 ## Adaptability on a variety of screen sizes
 
@@ -128,12 +128,12 @@ HTML, CSS, Javascript
 
 ## Deployment
 
-The site was deployed to GitHub - [The 90´s Football Quiz](https://askeran17.github.io/...)
+The site was deployed to GitHub - [The 90´s Football Quiz](https://askeran17.github.io/90s-football-quiz/)
 
 The steps to deploy are as follows:
 
 1. Login (or signup) to Github.
-2. Go to the repository for this project, [90s-football-quiz](https://github.com/Askeran17/...)
+2. Go to the repository for this project, [90s-football-quiz](https://github.com/Askeran17/90s-football-quiz.git)
 3. Click the settings button.
 4. Select pages in the left hand navigation menu.
 5. From the source dropdown select main branch and press save.
