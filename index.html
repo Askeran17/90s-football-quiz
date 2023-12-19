@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta tags for search engines -->
+    <meta name="description" content="This quiz about football of 90´s">
+
+    <!-- Title -->
+    <title>90´s Football Quiz</title>
+    <!-- Favicon -->
+    <link rel="icon" sizes="180x180" href="assets/favicon/football.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/football-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/football-16x16.png">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+     <!-- Start -->
+	 <section class="start">
+	<div class="start-display">
+		<h1>Welcome to the 90´s Football Quiz</h1>
+		<button id="start-button">Start</button>
+	  </div>
+	</section>
+
+    <!-- Game Area -->
+	<section class="game">
+	<div class="quiz hide" id="quiz">
+        
+		<!-- Show score -->
+		<div id="score">🏆 Score: 0</div>
+
+			<!-- Quiz header -->
+		<div class="quiz-header" id="header">
+			
+			<!-- Question title -->
+			<h2 class="title">%title%</h2>
+
+			<!-- Final message -->
+			<h3 class="summary">%message%</h3>
+			<p class="result">%result%</p>
+		</div>
+
+		<!-- Answer options -->
+		<ul class="quiz-options" id="list">
+			<li>
+				<label>
+					<input type="radio" class="answer" name="answer" />
+					<span>Answer...</span>
+				</label>
+			</li>
+			<li>
+				<label>
+					<input type="radio" class="answer" name="answer" />
+					<span>Answer...</span>
+				</label>
+			</li>
+		</ul>
+
+        <!-- Result -->
+		<div id="result">
+        <!-- Show correct answer -->
+		<div id="correct-answer">Correct: 0</div>
+		<!-- Show wrong answer -->
+		<div id="wrong-answer">Wrong: 0</div>
+	   </div>
+        
+		<!-- Answer button -->
+		<button class="quiz-submit submit" id="submit">Answer</button>
+
+	</div>
+</section>
+    
+    <!-- Javascript -->
+	<script src="assets/javascript/main.js"></script>
+
+</body>
+
+</html>
