@@ -142,3 +142,50 @@ answerNumber++;
 }
 
 }
+
+// the function will be triggered when the button is pressed
+function checkAnswer(){
+    console.log('checkAnswer started!');
+    
+    // find the selected radio button
+    const checkedRadio = listBlock.querySelector('input[type="radio"]:checked');
+    
+    // if the answer is not selected - do nothing, exit the function
+    if (checkedRadio) {
+        console.log('ok');
+    } else {
+        submitButton.blur();
+        return;
+    }
+    
+    // find out the user's answer number
+    let userAnswer = parseInt(checkedRadio.value); 
+    
+    // if the answer is correct - increase the score. If not alert and continue count questions
+    if (userAnswer === questions[questionIndex]['correct'] ) {
+        correctAnswer++; score+=5;
+        document.getElementById('correct-answer').innerHTML="Correct: "+correctAnswer;
+        document.getElementById('score').innerHTML="🏆 Score: "+score;
+    } else {
+        wrongAnswer++;
+        document.getElementById('wrong-answer').innerHTML="Wrong: "+wrongAnswer;
+        alert("better luck on nextone!!");  
+           
+    }
+    
+    
+    // checking questions
+    if (questionIndex !== questions.length - 1){
+        console.log('This is NOT last question');
+        questionIndex++;
+        clearPage();
+        showQuestion();
+        return;
+    
+    } else {
+        console.log('This is last question');
+        clearPage();
+        showResult();
+    }
+    
+    }
