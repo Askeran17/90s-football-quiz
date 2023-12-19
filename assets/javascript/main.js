@@ -86,4 +86,15 @@ const questions = [
 	},
 ];
 
+// search elements
+const headerBlock = document.querySelector('#header');
+const listBlock = document.querySelector('#list');
+const submitButton = document.querySelector('#submit');
+
+
+// scores variables
+let correctAnswer = 0; // number of correct answers
+let wrongAnswer = 0; // number of wrong answers
+let score = 0; // games scores
+let questionIndex = 0; // current question
 
