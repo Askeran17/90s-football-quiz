@@ -17,11 +17,7 @@ body {
 	align-items: center;
 	height: 100vh;
 	/* Background image */
-	background-image: url("../images/football-field.jpg");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    background-size: cover;
+	background: url("../images/football-field.jpg") no-repeat fixed center center/cover;
 }
 
 /* Start screen */
