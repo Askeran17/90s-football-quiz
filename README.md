@@ -1,4 +1,4 @@
-# The 90´s Football Quiz 1111
+# The 90´s Football Quiz
 
 The quiz is dedicated to football fans of the 90s. In the last era of the century there were many glorious events, many football stars, there was a different football atmosphere than today, and therefore I would like football fans to refresh their memory and go back a little to the past and feel the emotions that filled them when they watched football in the 90s. This quiz will help them plunge into that atmosphere.
 
