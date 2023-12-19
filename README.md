@@ -84,9 +84,9 @@ __Visitors__
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Faskeran17.github.io%2Fst-josephs-brotherhood%2F)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Faskeran17.github.io%2F90s-football-quiz%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Faskeran17.github.io%2Fst-josephs-brotherhood%2F&usermedium=all&vextwarning=&warning=1)
+  - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator?lang=en&profile=css3svg&uri=https%3A%2F%2Faskeran17.github.io%2F90s-football-quiz%2F&usermedium=all&vextwarning=&warning=1)
 
 - JAVASCRIPT
   - No errors were returned when passing through the official [JSHint validator](https://jshint.com/)
