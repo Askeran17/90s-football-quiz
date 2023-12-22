@@ -34,7 +34,7 @@ __Game Quiz__
 __Final result__
 
 - After answering all questions, the user receives the result and the final message.
-![Final message](assets/images/final-message.png)
+![Final message](assets/images/final-result.png)
 
 ## Testing
 
