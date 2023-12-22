@@ -21,32 +21,20 @@ I used program "Balsamiq Wireframes" to draw a page layout.
 
 __Start screen__
 
-- ....
+- At the start screen you see a football field with a ball, as well as a greeting - this all indicates that we will be talking about football. There is also a start button at the start, which will introduce the user to the quiz.
 
-![Nav Bar Desktop](assets/images/nav-menu-desktop.png)
-![Nav Bar Mobile](assets/images/nav-menu-mobile.png)
-![Nav Bar Mobile open](assets/images/nav-menu-mobile-click.png)
-
-- On the left side of header there is a logo that can be clicked and it will return the visitor to the main page.
+![Start screen](assets/images/start-screen-desktop.png)
 
 __Game Quiz__
 
-- On the first page the visitor can see a large image of the holy elder Joseph and his quote on top of the picture itself.
-![Large image St.Joseph](assets/images/large-image-st-joseph.png)
+- After the user presses the start button, he is taken to a screen that shows the quiz. There are 10 questions waiting for him, each of which offers 4 possible answers. Here the user also has the opportunity to track how many correct answers he guessed and how many incorrect ones. If the option is correct, then it goes into the green column; if it is incorrect, it goes into the red column. The score is also displayed at the top of the quiz itself. If the user guesses the correct answer, he gets 5 points; if not, he receives a message that next time he will be able to guess.
 
-- The following is a biography of St. Joseph and his disciples. Photos of students are beautifully circled and placed on the left side of the text. For the circle I used border-radius property and others which you can see more in the style.css.
-![Circled images Josephs disciples](assets/images/disciples-image-radius.png)
+![Quiz area](assets/images/quiz-area.png)
 
 __Footer__
 
-- In the footer I have placed a link to YouTube, where the visitor can watch a film about St. Joseph. I did not insert a link to the video inside the main content, but decided to place it in the footer, since it is convenient, does not take up much space and just looks beautiful with the YouTube button. The link opens in a separate tab and the visitor is taken to YouTube, while the site remains open. It is very comfortable. And under YouTube button I placed copyright.
-![Footer](assets/images/footer.png)
-
-__Last page__
-
-- On the last page I posted information for pilgrims to the holy Mount Athos, which office they can contact before going there. He also indicated the address of the bureau itself and its opening hours.
-![Information for pilgrims](assets/images/information-page.png)
-
+- After answering all questions, the user receives the result and the final message.
+![Final message](assets/images/final-message.png)
 
 ## Testing
 
@@ -78,8 +66,6 @@ __Visitors__
 
 | Goal | Has the goal been achieved? |
 | :--- | :--- |
-| I want to find advice from spiritual saints on how to deal with bad thoughts. | This site will introduce the visitor to holy people who lived just recently; these people will help a person with their advice on how to overcome bad thoughts.
-| The site must be responsive. | The site is adaptive and works correctly on all devices.
 
 ### Validator Testing 
 
