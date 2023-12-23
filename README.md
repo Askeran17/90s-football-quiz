@@ -9,11 +9,26 @@ You can check out the website [here](https://askeran17.github.io/90s-football-qu
 ![The 90´s football quiz shown on a variety of screen sizes](assets/images/adaptive-size.png)
 
 ## Design
+
+### Colour Scheme
+
+As the pages of the site have a background image, I wanted to keep the colour scheme used on the site quite small so as to not overwhelm users. 
+
+In my css file I have used variables to declare colours, and then used these throughout the css file. 
+
+* I have used `gold` as the background-color for the start-button 
+* I have used `whitesmoke` as the color for heading 1.
+* I have used `green` for the color to display the correct answers.
+* I have used `red` for the color to display the wrong answers.
+* I have used `#8e44ad` as the background-color for the answer-button and `#732d91` as the hover.
+
+### Wireframes
+
 I used program "Balsamiq Wireframes" to draw a page layout.
 
-![Wireframe](assets/images/wireframe-start-screen.png)
-![Wireframe](assets/images/wireframe-questions-list.png)
-![Wireframe](assets/images/wireframe-final-result.png)
+![Start screen](assets/images/wireframe-start-screen.png)
+![Questions list](assets/images/wireframe-questions-list.png)
+![Final result](assets/images/wireframe-final-result.png)
 
 ## Features
 
@@ -127,7 +142,7 @@ The steps to deploy are as follows:
 
 ## Credits 
 
-I was inspired by this video (https://www.youtube.com/watch?v=p-2G-7vLuV4) and this project (http://quizapp.sadiqmagbul.host20.uk)and partially took the code from them.
+I was inspired by this video (https://www.youtube.com/watch?v=p-2G-7vLuV4) and this project (http://quizapp.sadiqmagbul.host20.uk) and partially took the code from them.
 
 ### Content 
 
