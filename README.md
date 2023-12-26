@@ -42,9 +42,23 @@ __Start screen__
 
 __Game Quiz__
 
-- After the user presses the start button, he is taken to a screen that shows the quiz. There are 10 questions waiting for him, each of which offers 4 possible answers. Here the user also has the opportunity to track how many correct answers he guessed and how many incorrect ones. If the option is correct, then it goes into the green column; if it is incorrect, it goes into the red column. The score is also displayed at the top of the quiz itself. If the user guesses the correct answer, he gets 5 points; if not, he receives a message that next time he will be able to guess.
+- After the user presses the start button, he is taken to a screen that shows the quiz. There are 10 questions waiting for him, each of which offers 4 possible answers. Here the user also has the opportunity to track how many correct answers he guessed and how many incorrect ones.
 
 ![Quiz area](assets/images/quiz-area.png)
+
+If the option is correct, then it goes into the green column; 
+
+![Correct answer](assets/images/correct-answer.png)
+
+
+if it is incorrect, it goes into the red column and he receives a message that next time he will be able to guess.
+
+![Wrong answer](assets/images/wrong-answer.png)
+![Alert](assets/images/alert-wrong.png)
+
+The score is also displayed at the top of the quiz itself. If the user guesses the correct answer, he gets 5 points.
+
+![Score](assets/images/score-table.png)
 
 __Final result__
 
@@ -81,6 +95,9 @@ __Visitors__
 
 | Goal | Has the goal been achieved? |
 | :--- | :--- |
+I want to take part in a 90´s Football Quiz online and remember that football past time. I want to be able to play at any time, anywhere. | The quiz collects questions related to football of the 90´s on a wide range of topics. The site is available for use whenever is convenient to the user.
+| The site must be responsive. | The site is adaptive and works correctly on all devices.
+| I want the site to be easy to navigate. | The site is fully responsive and works correctly on all screen sizes.
 
 ### Validator Testing 
 
@@ -142,7 +159,7 @@ The steps to deploy are as follows:
 
 ## Credits 
 
-I was inspired by this video (https://www.youtube.com/watch?v=p-2G-7vLuV4) and this project (http://quizapp.sadiqmagbul.host20.uk) and partially took the code from them.
+I was inspired by this video (https://www.youtube.com/watch?v=p-2G-7vLuV4), these tutorial: (https://www.geeksforgeeks.org/how-to-create-a-simple-javascript-quiz/), (https://arhaanali.medium.com/quiz-app-with-html-css-and-javascript-24ccc4e0ce27). So I partially took the code from each project.
 
 ### Content 
 
