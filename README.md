@@ -111,9 +111,9 @@ I want to take part in a 90´s Football Quiz online and remember that football p
 | Incorrect answer | When an incorrect answer is clicked the lower right heading "wrong" should display red | Clicked incorrect answer | Column "red" displayed red | Pass |
 | Score Counter | The score counter should begin at 0. Each time a correct answer is selected the score should increase by 5. If an incorrect answer is selected the score should remain the same | Clicked a correct answer to check if the score increased. Clicked an incorrect answer to check the score stayed the same| When a correct answer was selected the score increased by 5. When an incorrect score was selected the score stayed the same | Pass |
 | Question counter | The Question counter should start at 1 and increase by 1 time the next button is selected. | answered questions and clicked next button | Each time the answer button is clicked the question counter increases by 1. | Pass |
-| Answer button | After selecting an answer option, pressing the answer button should move the participant to the next question | The answer button displayed | Pass |
+| Answer button | After selecting an answer option, pressing the answer button should move the participant to the next question | The answer button displayed | When the cursor hits the button it darkens a little, and when the cursor is removed it returns to its previous color. And when the visitor has selected an answer and clicked on the button, he moves on to the next question | Pass |
 | Play again? button | Takes the user to the beginning of the start screen game | Clicked the button | Taken to the beginning of the start screen game | Pass |
-| Displayed score | If your score is 10 out of 10, you are congratulated and your score is displayed | If your result is less, then you also receive a message which displays your result | Pass |
+| Displayed score | The final message with the result should be shown | The score works correctly | If your score is 10 out of 10, you are congratulated and your score is displayed. If your result is less, then you also receive a message which displays your result. | Pass |
 
 ### Validator Testing 
 
