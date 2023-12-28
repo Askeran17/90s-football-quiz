@@ -3,6 +3,7 @@
 
 // I set this option so JSHint doesn't raise unnecessary warnings.”
 
+//questions count
 let quizquestionTotal = document.querySelector("#questions-total");
 
 //start screen
@@ -172,11 +173,7 @@ function checkAnswer(){
     } else {
         wrongAnswer++;
         document.getElementById('wrong-answer').innerHTML="Wrong: "+wrongAnswer;
-        Swal.fire({
-            icon: "error",
-            title: "Oops...",
-            text: "It was wrong answer!"
-          }); 
+        alert ( "❌ Oops, wrong answer!" );
            
     }
 
@@ -205,7 +202,7 @@ questionTotal++;
     // function for result
 function showResult () {
     console.log(quizquestionTotal);
-    quizquestionTotal.classList.add("score-hidden");
+    quizquestionTotal.classList.add("questions-hidden");
     console.log('showResult started!');
     console.log(correctAnswer);
 
