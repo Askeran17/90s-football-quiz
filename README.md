@@ -1,12 +1,12 @@
 # The 90´s Football Quiz
 
-The quiz is dedicated to football fans of the 90s. In the last era of the century there were many glorious events, many football stars, there was a different football atmosphere than today, and therefore I would like football fans to refresh their memory and go back a little to the past and feel the emotions that filled them when they watched football in the 90s. This quiz will help them plunge into that atmosphere.
+The quiz is dedicated to football fans of the 90s. In the last era of the century there were many glorious events, many football stars, there was a different football atmosphere than today, and therefore I would like football fans to refresh their memory and go back a little to the past and feel the emotions that filled them when they watched football in the 90s. This quiz consisting of 10 questions will help them plunge into that atmosphere.
 
 You can check out the website [here](https://askeran17.github.io/90s-football-quiz/)!
 
 ## Adaptability on a variety of screen sizes
 
-![The 90´s football quiz shown on a variety of screen sizes](assets/images/adaptive-size.png)
+![The 90´s Football Quiz shown on a variety of screen sizes](assets/images/adaptive-size.png)
 
 ## Design
 
@@ -27,7 +27,7 @@ In my css file I have used variables to declare colours, and then used these thr
 I used program "Balsamiq Wireframes" to draw a page layout.
 
 ![Start screen](assets/images/wireframe-start-screen.png)
-![Questions list](assets/images/wireframe-questions-list.png)
+![Questions](assets/images/wireframe-questions-list.png)
 ![Final result](assets/images/wireframe-final-result.png)
 
 ## Features
@@ -42,9 +42,9 @@ __Start screen__
 
 __Game Quiz__
 
-- After the user presses the start button, he is taken to a screen that shows the quiz. There are 10 questions waiting for him, each of which offers 4 possible answers. Here the user also has the opportunity to track how many correct answers he guessed and how many incorrect ones.
+- After the user presses the start button, he is taken to a screen that shows the quiz. There are 10 questions waiting for him, each of which offers 4 possible answers. Here the user also has the opportunity to see how many questions are left and how many correct answers he guessed and how many incorrect ones. 
 
-![Quiz area](assets/images/quiz-area.png)
+![Quiz area display](assets/images/quiz-area.png)
 
 If the option is correct, then it goes into the green column; 
 
@@ -54,11 +54,15 @@ If the option is correct, then it goes into the green column;
 if it is incorrect, it goes into the red column and he receives a message that it was a wrong answer.
 
 ![Wrong answer](assets/images/wrong-answer.png)
-![Alert](assets/images/sweet-alert-wrong.png)
+![Alert](assets/images/alert-wrong-answer.png)
 
 The score is also displayed at the top of the quiz itself. If the user guesses the correct answer, he gets 5 points.
 
 ![Score](assets/images/score-table.png)
+
+The question counter also shows how many questions are left.
+
+![Questions counter](assets/images/question-counter.png)
 
 __Final result__
 
@@ -106,6 +110,7 @@ I want to take part in a 90´s Football Quiz online and remember that football p
 | Correct answer | When a correct answer is clicked the the lower left heading "correct" should display green | Clicked on a correct answer | Column "green" displayed green | Pass |
 | Incorrect answer | When an incorrect answer is clicked the lower right heading "wrong" should display red | Clicked incorrect answer | Column "red" displayed red | Pass |
 | Score Counter | The score counter should begin at 0. Each time a correct answer is selected the score should increase by 5. If an incorrect answer is selected the score should remain the same | Clicked a correct answer to check if the score increased. Clicked an incorrect answer to check the score stayed the same| When a correct answer was selected the score increased by 5. When an incorrect score was selected the score stayed the same | Pass |
+| Question counter | The Question counter should start at 1 and increase by 1 time the next button is selected. | answered questions and clicked next button | Each time the answer button is clicked the question counter increases by 1. | Pass |
 | Answer button | After selecting an answer option, pressing the answer button should move the participant to the next question | The answer button displayed | Pass |
 | Play again? button | Takes the user to the beginning of the start screen game | Clicked the button | Taken to the beginning of the start screen game | Pass |
 | Displayed score | If your score is 10 out of 10, you are congratulated and your score is displayed | If your result is less, then you also receive a message which displays your result | Pass |
@@ -153,8 +158,6 @@ HTML, CSS, Javascript
 * [Am I Responsive?](http://ami.responsivedesign.is/) - To show the website image on a range of devices.
 
 * [Emojipedia](https://emojipedia.org/) - Emoji for quiz.
-
-* [Sweetalert](https://sweetalert2.github.io/) - Script for alert.
 
 ## Deployment
 
