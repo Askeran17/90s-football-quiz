@@ -28,7 +28,7 @@ I used program "Balsamiq Wireframes" to draw a page layout.
 
 ![Start screen](assets/images/wireframe-start-screen.png)
 ![Questions](assets/images/wireframe-questions-list.png)
-![Final result](assets/images/wireframe-final-result.png)
+![Final result](assets/images/wireframe-final-results.png)
 
 ## Features
 
