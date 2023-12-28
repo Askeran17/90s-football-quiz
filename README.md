@@ -51,10 +51,10 @@ If the option is correct, then it goes into the green column;
 ![Correct answer](assets/images/correct-answer.png)
 
 
-if it is incorrect, it goes into the red column and he receives a message that next time he will be able to guess.
+if it is incorrect, it goes into the red column and he receives a message that it was a wrong answer.
 
 ![Wrong answer](assets/images/wrong-answer.png)
-![Alert](assets/images/alert-wrong.png)
+![Alert](assets/images/sweet-alert-wrong.png)
 
 The score is also displayed at the top of the quiz itself. If the user guesses the correct answer, he gets 5 points.
 
@@ -106,8 +106,9 @@ I want to take part in a 90´s Football Quiz online and remember that football p
 | Correct answer | When a correct answer is clicked the the lower left heading "correct" should display green | Clicked on a correct answer | Column "green" displayed green | Pass |
 | Incorrect answer | When an incorrect answer is clicked the lower right heading "wrong" should display red | Clicked incorrect answer | Column "red" displayed red | Pass |
 | Score Counter | The score counter should begin at 0. Each time a correct answer is selected the score should increase by 5. If an incorrect answer is selected the score should remain the same | Clicked a correct answer to check if the score increased. Clicked an incorrect answer to check the score stayed the same| When a correct answer was selected the score increased by 5. When an incorrect score was selected the score stayed the same | Pass |
-| Answer button - becomes visible | After selecting an answer option, pressing the answer button should move the participant to the next question | The answer button displayed | Pass |
+| Answer button | After selecting an answer option, pressing the answer button should move the participant to the next question | The answer button displayed | Pass |
 | Play again? button | Takes the user to the beginning of the start screen game | Clicked the button | Taken to the beginning of the start screen game | Pass |
+| Displayed score | If your score is 10 out of 10, you are congratulated and your score is displayed | If your result is less, then you also receive a message which displays your result | Pass |
 
 ### Validator Testing 
 
@@ -141,18 +142,19 @@ HTML, CSS, Javascript
 
 * [Google Developer Tools](https://developers.google.com/web/tools) - To troubleshoot and test features, solve issues with responsiveness and styling.
 
-* [IloveImg](https://www.iloveimg.com/) To resize images.
+* [IloveImg](https://www.iloveimg.com/) - To resize images.
 
-* [Convertio](https://convertio.co/) To convert images to webp format.
+* [Convertio](https://convertio.co/) - To convert images to webp format.
 
-* [Favicon.io](https://favicon.io/) To create favicon.
+* [Favicon.io](https://favicon.io/) - To create favicon.
 
 * [Balsamiq](https://balsamiq.com/) - Used to create wireframes.
 
-* [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+* [Am I Responsive?](http://ami.responsivedesign.is/) - To show the website image on a range of devices.
 
-* [Emojipedia](https://emojipedia.org/) Emoji for quiz.
+* [Emojipedia](https://emojipedia.org/) - Emoji for quiz.
 
+* [Sweetalert](https://sweetalert2.github.io/) - Script for alert.
 
 ## Deployment
 
