@@ -99,6 +99,16 @@ I want to take part in a 90´s Football Quiz online and remember that football p
 | The site must be responsive. | The site is adaptive and works correctly on all devices.
 | I want the site to be easy to navigate. | The site is fully responsive and works correctly on all screen sizes.
 
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Play Button | Directs the user to the game page | Clicked on button | Game page opens to quiz area | Pass |
+| Correct answer | When a correct answer is clicked the the lower left heading "correct" should display green | Clicked on a correct answer | Column "green" displayed green | Pass |
+| Incorrect answer | When an incorrect answer is clicked the lower right heading "wrong" should display red | Clicked incorrect answer | Column "red" displayed red | Pass |
+| Score Counter | The score counter should begin at 0. Each time a correct answer is selected the score should increase by 5. If an incorrect answer is selected the score should remain the same | Clicked a correct answer to check if the score increased. Clicked an incorrect answer to check the score stayed the same| When a correct answer was selected the score increased by 5. When an incorrect score was selected the score stayed the same | Pass |
+| Answer button - becomes visible | After selecting an answer option, pressing the answer button should move the participant to the next question | The answer button displayed | Pass |
+| Play again? button | Takes the user to the beginning of the start screen game | Clicked the button | Taken to the beginning of the start screen game | Pass |
+
 ### Validator Testing 
 
 - HTML
