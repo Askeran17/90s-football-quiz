@@ -3,6 +3,8 @@
 
 // I set this option so JSHint doesn't raise unnecessary warnings.”
 
+let quizquestionTotal = document.querySelector("#questions-total");
+
 //start screen
 let startPage = document.querySelector('.start-display');
 let startButton = document.getElementById('start-button');
@@ -97,6 +99,7 @@ let correctAnswer = 0; // number of correct answers
 let wrongAnswer = 0; // number of wrong answers
 let score = 0; // games scores
 let questionIndex = 0; // current question
+let questionTotal = 1; // count question
 
 // start commands
 clearPage();
@@ -176,6 +179,11 @@ function checkAnswer(){
           }); 
            
     }
+
+    // question lenght
+{ quizquestionTotal.innerHTML = `<p>${questionTotal + 1} of ${questions.length} questions</p>`;
+questionTotal++;
+	}
     
     
     // checking questions
@@ -196,6 +204,8 @@ function checkAnswer(){
 
     // function for result
 function showResult () {
+    console.log(quizquestionTotal);
+    quizquestionTotal.classList.add("score-hidden");
     console.log('showResult started!');
     console.log(correctAnswer);
 

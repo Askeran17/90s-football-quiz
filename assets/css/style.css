@@ -63,12 +63,31 @@ h1 {
     font-weight: bold;
 }
 
+/* Top Scoreboard */
+
+#top-scoreboard  {
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+	margin-top: 10px;
+	font-family: "Paytone One", sans-serif;
+}
+
 #score {
     display: flex;
     font-size: 12px;
-	margin-right: -1rem;
-	font-family: "Paytone One", sans-serif;
-	
+    margin-right: -1rem;
+    font-family: "Paytone One", sans-serif;
+    
+}
+
+#questions-total {
+	font-family: "Barlow Condensed", sans-serif;
+
+}
+
+.score-hidden {
+    visibility: hidden;
 }
 
 /* Game Area */
