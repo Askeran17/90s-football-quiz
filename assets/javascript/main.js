@@ -169,7 +169,11 @@ function checkAnswer(){
     } else {
         wrongAnswer++;
         document.getElementById('wrong-answer').innerHTML="Wrong: "+wrongAnswer;
-        alert("better luck on nextone!!");  
+        Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "It was wrong answer!"
+          }); 
            
     }
     
